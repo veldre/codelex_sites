@@ -1,0 +1,21 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Tests\\": "tests/",
+      "Core\\": "core/"
+    },
+    "files": [
+      "functions.php",
+      "config/app.php",
+      "config/database.php",
+      "config/errors.php"
+    ]
+  },
+  "require": {
+    "phpunit/phpunit": "8.*",
+    "catfan/medoo": "^1.7",
+    "nesbot/carbon": "^2.28",
+    "nikic/fast-route": "^1.3"
+  }
+}

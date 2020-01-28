@@ -1,0 +1,43 @@
+tr {
+
+    height: auto;
+
+}
+
+
+thead tr {
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+#selectBtn {
+    height: 31px;
+}
+
+#admin_button {
+    width: 90px;
+}
+
+#menu {
+    width: 60px;
+    margin-top: 3px;
+}
+#menudel {
+    width: 60px;
+    margin-top: 10px;
+}
+
+
+#text {
+    height: 150px;
+}
+
+#mainPage {
+    height: 250px;
+    background-image: url("background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
